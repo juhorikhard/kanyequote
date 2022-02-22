@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply font-bold py-2 px-2 rounded-full max-h-10 ;
+}
+.btn-red {
+  @apply bg-red-500 text-white;
+}
+.btn-red:hover {
+  @apply bg-red-700;
+}
+.deleteall{
+  @apply bg-indigo-500 text-white
+}
+.deleteall:hover{
+  @apply bg-indigo-600
+}
+
